@@ -13,5 +13,5 @@ $password = "";
 $conn = new PDO("mysql:host=$host; dbname=$dbname", $username, $password);
 $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-$stripe_secret_key = "sk_test_51OdfV3J3Z02KmYncODuOvkk9KKcwUSX3vIvAkbVVZEGzeeJNaEXo8n9Z7iA9w8L5bGLzcXolRTnVBu88yGP1Au1h006x9KrKkP";
+$stripe_secret_key = "api key";
 ?>
